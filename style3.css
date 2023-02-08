@@ -1,0 +1,52 @@
+body{
+  width:400px;
+}
+
+.red{
+  height: 100px;
+  background:#ff0000;
+}
+.green{
+  float: left;
+  width: 150px;
+  height: 250px;
+  background: #00ff51;
+}
+.content{
+  float:right;
+ 
+  height: 250px;
+}
+.content-top-left{
+  float:left;
+  width: 150px;
+}
+.pink{
+  height: 50px;
+  background: #cc00db;
+}
+.blue{
+  height: 100px;
+  background: #0093b7;
+}
+.orange{
+  float:right;
+  width: 100px;
+  height: 150px;
+  background: #ff9e6b;
+}
+.brown{
+  height: 100px;
+  background: #8c2727;
+}
+.yellow{
+  height: 100px;
+  background: #fff700;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+
+}
